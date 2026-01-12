@@ -199,6 +199,16 @@ wheels = [
 ]
 
 [[package]]
+name = "lxml"
+version = "4.6.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e5/21/a2e4517e3d216f0051687eea3d3317557bde68736f038a3b105ac3809247/lxml-4.6.3.tar.gz", hash = "sha256:39b78571b3b30645ac77b95f7c69d1bffc4cf8c3b157c435a34da72e78c82468", size = 3191113, upload-time = "2021-03-22T17:07:32.618Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/34/19/af0c27e71fec1f8ef9bdc0015f6958ee7dee5c9562b13aaf6eb8770499c7/lxml-4.6.3-cp310-cp310-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_24_i686.whl", hash = "sha256:64812391546a18896adaa86c77c59a4998f33c24788cadc35789e55b727a37f4", size = 6962555, upload-time = "2021-08-12T21:17:26.075Z" },
+    { url = "https://files.pythonhosted.org/packages/24/b7/e596382ac7cc6b9574dba3979f9f52f5bb1b5f5816fc2643ccad23ae692c/lxml-4.6.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", hash = "sha256:c1a40c06fd5ba37ad39caa0b3144eb3772e813b5fb5b084198a985431c2f1e8d", size = 6872082, upload-time = "2021-08-12T21:17:34.771Z" },
+]
+
+[[package]]
 name = "markupsafe"
 version = "3.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -301,6 +311,7 @@ dependencies = [
     { name = "django" },
     { name = "flask" },
     { name = "jinja2" },
+    { name = "lxml" },
     { name = "pyyaml" },
     { name = "requests" },
     { name = "sqlalchemy" },
@@ -313,6 +324,7 @@ requires-dist = [
     { name = "django", specifier = "==2.0.0" },
     { name = "flask", specifier = "==0.12" },
     { name = "jinja2", specifier = "<3.1.0" },
+    { name = "lxml", specifier = "==4.6.3" },
     { name = "pyyaml", specifier = "==5.3.1" },
     { name = "requests", specifier = "==2.19.1" },
     { name = "sqlalchemy", specifier = "==1.3.18" },
